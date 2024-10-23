@@ -23,4 +23,5 @@ export class AuthService {
   register(newUser: Partial<iUser>) {
     return this.http.post<iAccessData>(this.registerUrl, newUser);
   }
+  login() {}
 }
